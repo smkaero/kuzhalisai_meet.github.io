@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+form label, form input, form select, form button {
+	margin: 5px;
+}
+
+form select {
+	width: 150px;
+}
+
+form input {
+	width: 200px;
+}
+
+
+
+table th, table td {
+	padding: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+table th {
+	background-color: lightgrey;
+}
+
+table td:last-child {
+	text-align: center;
+}
+
+table button {
+	background-color: transparent;
+	color: red;
+	border: none;
+	cursor: pointer;
+}
+
+
+table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
