@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel = "stylesheet" href = "index.css" type = "text/css">
+  
+</head>
+<!--title-->
+<div class="jumbotron jumbotron-fluid " id = "jumbo" style = "background-color:#563d7c;">
+<header class = "container">
+<h1 style = "color :white"> Kuzhalisai </h1>  <h4 style = "color :white"> Sixth Meet </h4>
+</header>
+</div>
+
+<!-- nav bar -->
+<nav id = "nave" class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="solo.html">Solo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="duet1.html">First Duet</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="duet2.html">Duet 2 Vani</a>
+      </li>	    	  
+    </ul>
+  </div> 
+</nav>
+<br>
+<body>
+
+
+<h1>Singer Song List</h1>
+	<form>
+		<label for="msinger">Select singer:</label>
+		<select id="msinger">
+			<option value="Balakrishnan ">Balakrishnan</option>
+<option value="Chandru ">Chandru</option>
+<option value="Don ">Don</option>
+<option value="Dr. Nithi ">Dr. Nithi</option>
+<option value="Dr.prakash ">Dr.prakash</option>
+<option value="Ebenezer ">Ebenezer</option>
+<option value="Gunasekar ">Gunasekar</option>
+<option value="Ramesh ">Ramesh</option>
+<option value="Magesh ">Magesh</option>
+<option value="Manikandan ">Manikandan</option>
+<option value="Vidhyadharan ">Vidhyadharan</option>
+<option value="Nagarajan ">Nagarajan</option>
+<option value="Raam ">Raam</option>
+<option value="Ravi sankar ">Ravi sankar</option>
+<option value="Saha ">Saha</option>
+<option value="Sai venkat ">Sai venkat</option>
+<option value="Shankar ">Shankar</option>
+<option value="Sree kumar ">Sree kumar</option>
+<option value="Symphony Raju ">Symphony Raju</option>
+<option value="Vijay ">Vijay</option>
+<option value="Vimal ">Vimal</option>
+<option value="Vivekanandan ">Vivekanandan</option>
+<option value="Yaswanth ">Yaswanth</option>
+<option value="Ilavarasu ">Ilavarasu</option>
+<option value="Jeyaraaman ">Jeyaraaman</option>
+<option value="Subramani ">Subramani</option>
+<option value="Chitra devi ">Chitra devi</option>
+<option value="Gayathri ">Gayathri</option>
+<option value="Jeyasri ">Jeyasri</option>
+<option value="Jona poonguzhali ">Jona poonguzhali</option>
+<option value="Kokila ">Kokila</option>
+<option value="Kovai Vasanthi ">Kovai Vasanthi</option>
+<option value="Mageshwari ">Mageshwari</option>
+<option value="Karpagam ">Karpagam</option>
+<option value="Vasanthi ">Vasanthi</option>
+<option value="Vasundra ">Vasundra</option>
+<option value="Sujatha ">Sujatha</option>
+<option value="Suganthi Nagaraj ">Suganthi Nagaraj</option>
+<option value="Aishwarya ">Aishwarya</option>
+
+		</select>
+		
+		<label for="song">Enter a Song:</label>
+		<input type="text" id="song">
+		<button type="button" onclick="addSong()">Add Song</button>
+	</form>
+	<table>
+		<thead>
+			<tr>
+				<th>Serial No.</th>
+				<th>Male Singer</th>
+				
+				<th>Song</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody id="songList">
+		</tbody>
+	</table>
+	<script src="index1.js"></script>
+
+</body>
+
+
+
+</html>
